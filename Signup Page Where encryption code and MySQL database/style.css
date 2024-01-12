@@ -1,0 +1,353 @@
+.sbd{
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+    background: url(bg.JPG);
+    width: 1280px;
+    height: 600px;
+}
+.hom{
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+    background: url(hmbg.jpg);
+    width: 1280px;
+    height: 540px;
+    
+}
+.navbar { 
+    display: flex; 
+    background-color: lightgrey; 
+    font-size: 1rem; 
+    height: 30px; 
+    padding-top: 5px;
+    color: black;
+} 
+.nav{
+    text-align: center; 
+    font-size: 2rem; 
+    height: 3rem;
+    font-style: italic;
+    padding-top: 7px;
+}
+
+.first{
+    text-align: left; 
+    font-size: 2rem; 
+    height: 3rem;
+    font-style: italic;
+    padding-top: 7px;
+    color: white;
+}
+a { 
+    text-decoration: none; 
+    color: black; 
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.logs{
+    font-weight: bold;
+} 
+.menu { 
+    margin: 0 1rem; 
+    justify-content:space-between; 
+    font-family: 'Times New Roman' 
+} 
+.box{
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    position: relative;
+    left: 65%;
+    background: whitesmoke;
+    text-align: center;
+    border: 3px dotted black;
+    border-radius: 20px;
+    opacity: 0.5;
+
+}
+.boxs{
+  margin-top: 60px;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    position: relative;
+    left: 65%;
+    bottom: 10%;
+    background: whitesmoke;
+    text-align: center;
+    border: 3px dotted black;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+.box h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.boxs h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight:900;
+}
+
+
+.box input[type="submit"]{
+    background: navy;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 30px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+}
+.box input[type="submit"]:focus{
+    background: #ffc400ec;
+}
+.boxs input[type="submit"]{
+    background: navy;
+    margin: 50px auto;
+    text-align: center;
+    padding: 14px 30px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    bottom: 0%;
+    
+}
+.boxs input[type="submit"]:focus{
+    background: #ffc400ec;
+
+}
+
+
+
+.input-data{
+    float: left;
+    width:50%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.input-sdata{
+    float: left;
+    width: 100%;
+}
+.column::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  .box .input-data{
+    height: 40px;
+    width: 40%;
+    position: relative;
+  }
+  .box .input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: none;
+    font-size: 17px;
+    border-bottom: 2px solid lightgray;
+    text-decoration: black;  
+  }
+  .input-data input:focus ~ label,
+  .input-data input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #4158d0;
+    
+  }
+  .box .input-data label{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-style: italic;
+    
+  }
+  .boxs .input-sdata{
+    height: 40px;
+    width: 65%;
+    position: relative;
+    padding-top: 25px;
+
+  }
+  .boxs .input-sdata input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: none;
+    font-size: 17px;
+    border-bottom: 2px solid lightgray;
+    text-decoration: black; 
+    
+  }
+  .input-sdata input:focus ~ label,
+  .input-sdata input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #4158d0;
+    
+  }
+  .boxs .input-sdata label{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-style: italic;
+    
+  }
+  .box .input-sdata{
+    padding-top: 15px;
+    height: 40px;
+    width: 65%;
+    position: relative;
+  }
+  .box .input-sdata input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid lightgrey;
+    
+  }
+  .input-sdata input:focus ~ label,
+  .input-sdata input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #4158d0;
+  }
+  .box .input-sdata label{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-style: italic;
+  }
+
+  .box .input-sdata{
+    padding-top: 15px;
+    height: 40px;
+    width: 65%;
+    position: relative;
+  }
+  .boxs .input-sdata input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid lightgrey;
+    
+  }
+  .boxs .input-sdata label{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-style: italic;
+
+  }
+  /*                  ifjeifjelf */
+  /* Styles for the password validation form */
+/* Styles for the password validation form */
+/* Styles for the password validation form */
+.requirements {
+  display: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+/* Styles for the password field and form */
+.input-sdata {
+  position: relative;
+}
+
+
+#requirements {
+  display: none;
+  position: absolute;
+  top: -150px; /* Adjust this value to position the form */
+  left: -220px; /* Adjust this value to position the form */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  z-index: 1;
+  width: 200px; /* Adjust width as needed */
+}
+.logout {
+  margin-left: 500px;
+  color: red;
+}
+
+
+
+
+
+.requirements h3 {
+  margin-top: 0;
+}
+
+.requirements ul {
+  list-style: none;
+  padding: 0;
+}
+
+.requirements li {
+  display: inline-flex; /* Use inline-flex for horizontal alignment */
+  align-items: center; /* Align items vertically */
+}
+
+
+
+.requirements label {
+  display: inline-flex; /* Use inline-flex for horizontal alignment */
+   /* Align items vertically */
+}
+
+.reg {
+  position: absolute;
+  bottom: -40px; /* Adjust this value to suit the desired vertical position inside the form */
+  left: 50%; /* Center the button horizontally */
+  transform: translateX(-50%);
+  background: navy;
+  text-align: center;
+  padding: 14px 30px;
+  outline: none;
+  color: white;
+  border-radius: 20px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+}
+.reg:focus {
+  background: #ffc400ec;
+}
