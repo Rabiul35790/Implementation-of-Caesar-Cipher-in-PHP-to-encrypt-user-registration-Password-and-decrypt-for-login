@@ -51,6 +51,7 @@
             $result = $stmt->get_result();
     
             if ($result->num_rows > 0) {
+                //Decryption is done from here 
                 $stored_password = $result->fetch_assoc()['password'];
                 $shift = 3;
                 $decrypted_password = '';
